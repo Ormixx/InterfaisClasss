@@ -1,0 +1,14 @@
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\bin\Debug\net8.0\InterfaiseProject.exe
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\bin\Debug\net8.0\InterfaiseProject.deps.json
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\bin\Debug\net8.0\InterfaiseProject.runtimeconfig.json
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\bin\Debug\net8.0\InterfaiseProject.dll
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\bin\Debug\net8.0\InterfaiseProject.pdb
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.AssemblyInfoInputs.cache
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.AssemblyInfo.cs
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.csproj.CoreCompileInputs.cache
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.dll
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\refint\InterfaiseProject.dll
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.pdb
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.genruntimeconfig.cache
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\ref\InterfaiseProject.dll
