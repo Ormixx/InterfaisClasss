@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterfaiseProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d07530ef2095148a96050d5efd6c0a2d832a50")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterfaiseProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterfaiseProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

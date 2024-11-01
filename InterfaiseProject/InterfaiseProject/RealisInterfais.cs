@@ -11,31 +11,33 @@ namespace InterfaiseProject
     {
         public class NumberArray : IArrayManipulator
         {
+            private OrderedArray _orderedArray;
             private readonly long[] _array;
             private int _count;
 
             public NumberArray(int size)
             {
+                _orderedArray = new OrderedArray(size);
                 _array = new long[size];
                 _count = 0;
             }
 
-            public bool Find(long value) => Array.Exists(_array, v => v == value && Array.IndexOf(_array, v) < _count);
+
+            public bool Find(long value) => _orderedArray.Contains(value);
 
             public void Add(long value)
             {
-                if (_count >= _array.Length) throw new InvalidOperationException("Array is full");
-                _array[_count++] = value;
+                if (!_orderedArray.Insert(value))
+                {
+                    return;
+                }
             }
 
             public bool Remove(long value)
             {
-                int index = Array.IndexOf(_array, value, 0, _count);
-                if (index == -1) return false;
-
-                Array.Copy(_array, index + 1, _array, index, _count - index - 1);
-                _count--;
-                return true;
+                bool removed = _orderedArray.Remove(value);
+                if (removed) _count--;
+                return removed;
             }
 
             public void Show()
@@ -47,23 +49,10 @@ namespace InterfaiseProject
 
             public int Size() => _count;
 
-            public long FindMin()
-            {
-                if (_count == 0) throw new InvalidOperationException("Array is empty");
-                long min = _array[0];
-                for (int i = 1; i < _count; i++)
-                    if (_array[i] < min) min = _array[i];
-                return min;
-            }
+            public long FindMin() => _orderedArray.FindMin();
 
-            public long FindMax()
-            {
-                if (_count == 0) throw new InvalidOperationException("Array is empty");
-                long max = _array[0];
-                for (int i = 1; i < _count; i++)
-                    if (_array[i] > max) max = _array[i];
-                return max;
-            }
+            public long FindMax() => _orderedArray.FindMax();
         }
+        //Работу выполнил Рязанов А.В. ПИНб-21
     }
 }

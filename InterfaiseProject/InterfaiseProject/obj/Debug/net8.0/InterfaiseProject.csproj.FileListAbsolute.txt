@@ -12,3 +12,4 @@ C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\refi
 C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.pdb
 C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.genruntimeconfig.cache
 C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\ref\InterfaiseProject.dll
+C:\Class\RyazanovClass\InterfaiseProject\InterfaiseProject\obj\Debug\net8.0\InterfaiseProject.sourcelink.json
